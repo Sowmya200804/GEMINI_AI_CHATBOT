@@ -1,0 +1,114 @@
+
+/* ===== Main Background ===== */
+.stApp {
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #1e1b4b,
+        #312e81
+    );
+    color: #ffffff;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* ===== Main Container ===== */
+.block-container {
+    max-width: 850px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* ===== Main Title ===== */
+h1 {
+    text-align: center;
+    font-size: 42px !important;
+    font-weight: 800 !important;
+    background: linear-gradient(
+        90deg,
+        #38bdf8,
+        #c084fc,
+        #f472b6
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 10px;
+}
+
+/* ===== Description Text ===== */
+.stApp p {
+    color: #e2e8f0;
+    font-size: 16px;
+}
+
+/* ===== Prompt Label ===== */
+label {
+    color: #c4b5fd !important;
+    font-weight: 600 !important;
+}
+
+/* ===== Prompt Text Area ===== */
+.stTextArea textarea {
+    background-color: #111827 !important;
+    color: #ffffff !important;
+    border: 2px solid #6366f1 !important;
+    border-radius: 15px !important;
+    padding: 15px !important;
+    font-size: 16px !important;
+}
+
+/* Prompt Box Focus Effect */
+.stTextArea textarea:focus {
+    border-color: #38bdf8 !important;
+    box-shadow: 0 0 12px #6366f180 !important;
+}
+
+/* ===== Generate Response Button ===== */
+.stButton > button {
+    width: 100%;
+    background: linear-gradient(
+        90deg,
+        #6366f1,
+        #a855f7,
+        #ec4899
+    );
+    color: white !important;
+    border: none !important;
+    border-radius: 12px !important;
+    padding: 12px 20px !important;
+    font-size: 17px !important;
+    font-weight: bold !important;
+    transition: all 0.3s ease;
+}
+
+/* Button Hover Effect */
+.stButton > button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px #a855f780;
+    border: none !important;
+}
+
+/* ===== Response Text ===== */
+.stMarkdown {
+    color: #f1f5f9;
+    line-height: 1.8;
+}
+
+/* ===== Success and Warning Messages ===== */
+.stAlert {
+    border-radius: 12px;
+}
+
+/* ===== Spinner ===== */
+.stSpinner > div {
+    color: #c084fc !important;
+}
+
+/* ===== Divider ===== */
+hr {
+    border-color: #6366f1;
+}
+
+/* ===== Footer Text ===== */
+footer {
+    visibility: hidden;
+}
